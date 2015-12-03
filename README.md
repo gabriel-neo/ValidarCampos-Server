@@ -1,2 +1,7 @@
-# ValidarCampos-Server
-Classe em PHP para validar campos do lado do servidor.
+#ValidarCampos-Server
+
+ * Repositório : ValidarCampos-Server
+ * Descrição : Classe em PHP para validar CPF e CEP (Server Side).
+ * Autor : Gabriel Braga (Projeto Aplicado 2015)
+
+
