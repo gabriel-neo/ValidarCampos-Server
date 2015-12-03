@@ -12,7 +12,7 @@ Para utilizar esses métodos em seu programa, basta baixar o arquivo UtilClass.p
 No arquivo que desejar fazer a validação, você deve importar essa classe utilizando o require_once "[caminho]UtilClass.php";
 e então basta invocar o método estatico como no exemplo abaixo:
 
-
+```
 $cpf = 11122233345;
 $var = UtilClass::validaCPF($cpf);
 
@@ -22,7 +22,7 @@ if ($var){
 else{
   echo ("CPF Inválido!");
 }
-
+```
 O exemplo de uso do validador de CEP é bem parecido com o código mostrado acima:
 
 $cep = 33222444;
