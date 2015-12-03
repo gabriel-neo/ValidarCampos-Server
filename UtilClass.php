@@ -1,5 +1,13 @@
 <?php
 class UtilClass {
+	
+	/*
+	 * Método público validaCPF que recebe por parâmetro um cpf.
+	 * Ex : $bool = validaCPF(11122233345);
+	 * Retorna 0 se o CPF informado é inválido.
+	 * Retorna 1 se o CPF informado é valido.
+	 */
+	
 	public static function validaCPF($cpf) {
 		
 		if ($cpf == 00000000000 || $cpf == 11111111111 || $cpf == 22222222222 || $cpf == 33333333333 || $cpf == 44444444444 ||
@@ -36,6 +44,13 @@ class UtilClass {
 			return 0;
 		}
 	}
+	
+	/*
+	 * Método público validaCEP que recebe por parâmetro um cep.
+	 * Ex : $bool = validaCEP(33222444);
+	 * Retorna 0 se o CEP informado é inválido.
+	 * Retorna 1 se o CEP informado é valido.
+	 */
 	
 	public static function validaCEP($cep){
 		
